@@ -1,0 +1,36 @@
+@charset "iso-8859-9";
+/* CSS Document */
+
+	.pTabGenel ul.pTabListe {
+		overflow:hidden;
+	}
+	.pTabGenel ul.pTabListe li {
+		float:left; margin-right:15px;
+	}
+	.pTabGenel ul.pTabListe li a {
+		display: block;
+		padding: 10px;
+		background: #FFF;
+		color: #00c0e4;
+		-webkit-border-radius: 2px; 
+    	-moz-border-radius: 2px;
+    	border-radius: 2px;
+	}
+	.pTabGenel ul.pTabListe li a span {
+		display: none
+	}
+	.pTabGenel ul.pTabListe li.pAktif a {
+		background: #111;
+	}
+	.pTabGenel .pTabContent {
+		background:url(../img/overlay.png);
+		width: 1250px;
+		padding:10px;
+		color: #000;
+		-webkit-border-radius: 2px; 
+    	-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+	.pTabGenel #karsilama{
+		color: #fff;
+	}
