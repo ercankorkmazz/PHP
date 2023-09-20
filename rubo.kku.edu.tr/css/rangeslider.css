@@ -1,0 +1,14 @@
+body {
+  color: #404040;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+
+output {
+  font-size: 25px;
+  padding: 7px;
+}
