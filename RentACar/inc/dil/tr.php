@@ -1,0 +1,123 @@
+<?php
+	$dil["kiralamaKosullari"] = "KÝRALAMA KOÞULLARI";
+	$dil["SSS"] = "S. S. S.";
+	$dil["iletisim"] = "ÝLETÝÞÝM";
+	$dil["transfer"] = "TRANSFER";
+	$dil["filomuz"] = "ARAÇ FÝLOMUZ";
+	$dil["filomuztolower"] = "Araç Filomuz";
+	$dil["hakkinda"] = "HAKKIMIZDA";
+	$dil["anasayfa"] = "ANASAYFA";
+	$dil["destekverezervasyon"] = "Destek ve Rezervasyon Hattý";
+	$dil["tunhaklarsakli"] = "Tüm haklarý saklýdýr.";
+	$dil["otokiralama"] = "Oto Kiralama";
+	$dil["onlinearackiralama"] = "Online Araç Rezervasyonu";
+	$dil["rezervasyonbilgimetni"] = "Formu doldurarak aracýnýzýn rezervasyonunu hemen yapabilirsiniz.";
+	$dil["alisyeri"] = "ALIÞ YERÝ";
+	$dil["alisyeriseciniz"] = "Alýþ Yeri Seçiniz";
+	$dil["donusyeri"] = "DÖNÜÞ YERÝ";
+	$dil["donusyeriseciniz"] = "Dönüþ Yeri Seçiniz";
+	$dil["alistarihsaat"] = "ALIÞ TARÝHÝ / SAATÝ";
+	$dil["donustarihsaat"] = "DÖNÜÞ TARÝHÝ / SAATÝ";
+	$dil["parabirimi"] = "Para Birimi";
+	$dil["rezervasyonolustur"] = "Rezervasyon Oluþtur";
+	$dil["adanasakirpasahavalimani"] = "Adana Þakirpaþa Havalimaný";
+	$dil["havalimani"] = "Havalimaný";
+	$dil["merkezofis"] = "Merkez Ofis";
+	$dil["ankaraesenbogahavalimani"] = "Ankara Esenboða Havalimaný";
+	$dil["kahramanmarashavalimani"] = "Kahramanmaraþ Havalimaný";
+	$dil["merkez"] = "Merkez";
+	$dil["gunluk"] = "Günlük";
+	$dil["rezervasyon"] = "Rezervasyon";
+	$dil["hizlirezervasyon"] = "Hýzlý Rezervasyon";
+	$dil["hizlirezervasyonbilgi"] = "Rezervasyonlarýnýzý web sitemiz üzerinden anýnda yapýlabilir ve hýzlý bir þekilde onay alabilirsiniz";
+	$dil["merkeziyerler"] = "Merkezi Yerler";
+	$dil["merkeziyerlerbilgi"] = "Size en yakýn merkezi lokasyonlarýmýzdan aracýnýzý teslim alabilir ve teslim edebilirsiniz.";
+	$dil["ekonomikfiyatlar"] = "Ekonomik Fiyatlar";
+	$dil["ekonomikfiyatlarbilgi"] = "Her keseye uygun ekonomik araç kiralama fiyatlarýmýz ile kaliteli, güvenli ve sorunsuz bir deneyim yaþayýn.";
+	$dil["724canlidestek"] = "7/24 Canlý Destek";
+	$dil["724bilgi"] = "7 Gün 24 Saat dilediðiniz her an anýnda destek ve bilgi alabilir. Araçlarýmýz hakkýnda detaylý bilgi edinebilirsiniz";
+	$dil["bazihizmetlerimizvekampanyalar"] = "Bazý Hizmetlerimiz & Kampanyalar";
+	$dil["devaminioku"] = "Devamýný Oku";
+	$dil["ocak"] = "Ocak";
+	$dil["subat"] = "Þubat";
+	$dil["mart"] = "Mart";
+	$dil["nisan"] = "Nisan";
+	$dil["mayis"] = "Mayýs";
+	$dil["haziran"] = "Haziran";
+	$dil["temmuz"] = "Temmuz";
+	$dil["agustos"] = "Aðustos";
+	$dil["eylul"] = "Eylük";
+	$dil["ekim"] = "Ekim";
+	$dil["kasim"] = "Kasým";
+	$dil["aralik"] = "Aralýk";
+	$dil["menu"] = "Menü";
+	$dil["hizmetlerimiz"] = "Hizmetlerimiz";
+	
+	
+	$dil["iletisimFormu"] = "Ýletiþim Formu";
+	$dil["adSoyad"] = "Adýnýz Soyadýnýz";
+	$dil["tel"] = "Telefon";
+	$dil["eposta"] = "E-Posta";
+	$dil["konu"] = "Konu";
+	$dil["mesajiniz"] = "Mesaj";
+	$dil["gonder"] = "Gönder";
+	
+	$dil["alisbilgileri"] = "Alýþ Bilgileri";
+	$dil["donusbilgileri"] = "Dönüþ Bilgileri";
+	$dil["yakitBenzin"] = "Benzin";
+	$dil["yakitDizel"] = "Dizel";
+	$dil["yakitLPG"] = "LPG";
+	$dil["videsDuz"] = "Manuel";
+	$dil["videsOtomatik"] = "Otomatik";
+	$dil["videsTiptronik"] = "Tiptronik";
+	$dil["gun"] = "Gün";
+	$dil["reservasyonbilgilerikaydedildi"] = "Rezervasyon Bilgileri Kaydedildi";
+	$dil["gecerlitariharaligiseciniz"] = "Geçerli bir tarih aralýðý belirleyiniz.";
+	
+	$dil["gunlukFiyati"] = "Günlük Fiyatý";
+	$dil["gunSayisi"] = "Gün Sayýsý";
+	$dil["ekstraUcretler"] = "Ekstra Ücretler";
+	$dil["toplam"] = "Toplam";
+	
+	$dil["alisyerismall"] = "Alýþ Yeri";
+	$dil["donusyerismall"] = "Dönüþ Yeri";
+	$dil["alistarihi"] = "Alýþ Tarihi";
+	$dil["donustarihi"] = "Dönüþ Tarihi";
+	$dil["alissaati"] = "Alýþ Saati";
+	$dil["donussaati"] = "Dönüþ Saati";
+	
+	$dil["ekstralar"] = "Ekstralar";
+	$dil["bebekKoltugu"] = "Bebek Koltuðu";
+	$dil["navigasyon"] = "Navigasyon";
+	$dil["ozelSofor"] = "Özel Þöför";
+	$dil["karZinciri"] = "Kar Zinciri";
+	$dil["ozelSoforLang"] = "Özel þoför (Ýngilizce-Almanca)";
+	$dil["ekstraSigorta"] = "Ekstra Sigorta CDW";
+	$dil["istiyorum"] = "Ýstiyorum";
+	$dil["istemiyorum"] = "Ýstemiyorum";
+	
+	$dil["kisiselBilgileriniz"] = "Kiþisel Bilgileriniz";
+	$dil["adSoyad"] = "Adý Soyadý";
+	$dil["ulke"] = "Ülke";
+	$dil["havayoluSirketi"] = "Havayolu Þirketi";
+	$dil["kalkisHavalimani"] = "Kalkýþ Havalimaný";
+	$dil["ucusNo"] = "Uçuþ No";
+	$dil["ozelIstekleriniz"] = "Özel Ýstekleriniz";
+	$dil["odemeTipi"] = "Ödeme Tipi";
+	$dil["nakit"] = "Nakit";
+	$dil["krediKarti"] = "Kredi Kartý";
+	$dil["havaleEFT"] = "Havale / EFT";
+	$dil["rezervasyonuTamamla"] = "Rezervasyonu Tamamla";
+	$dil["reservasyonBilgileriniGiriniz"] = "Rezervasyon Bilgilerini Giriniz";
+	
+	$dil["varisYeri"] = "Varýþ Yeri";
+	$dil["kisi"] = "Kiþi";
+	$dil["kisiSayisi"] = "Kiþi Sayýsý";
+	$dil["mesafe"] = "Mesafe";
+	$dil["TransferRezervasyonFormu"] = "Transfer Rezervasyon Formu";
+	$dil["RezervasyonTamamlandi"] = "<span style='color: #060;'>Rezervasyon Tamamlandý</span><br><span style='font-size:14px;'>Size en kýsa sürede dönüþ yapacaðýz.</span>";
+	$dil["islemBasarisiz"] = "<span style='color: #F00;'>Bir Sorun Oluþtu</span><br> <span style='font-size:14px;'>Lütfen daha sonra tekrar deneyiniz.</span>";
+	$dil["mesajIletildi"] = "<span style='color: #060;'>Mesaj Ýletildi</span><br><span style='font-size:14px;'>Size en kýsa sürede dönüþ yapacaðýz.</span>";
+	$dil["formBosAlanlar"] = "(*) Yýldýz ile belirtilen alanlar boþ býrakýlamaz.";
+
+?>
