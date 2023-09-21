@@ -1,0 +1,299 @@
+@charset "iso-8859-9";
+/* CSS Document */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	overflow-y:scroll;
+	background: #FFF;
+}
+.clear{
+	clear:both;
+}
+img{border:0;}
+#tablo { margin-top:7px;}
+#tablo .tr{
+	-moz-border-radius:2px;
+	border-radius:2px;
+	border-top:1px solid #DDD;
+	padding:10px 0 10px 0;
+}
+#tablo tr td{
+	padding:3px;
+}
+#tablo img{
+	box-shadow: #222 0px 0px 3px 0px;
+	-moz-border-radius:3px;
+	border-radius:1px;
+	margin-left:2px;
+}
+.bolum1{	
+	width: 100%;
+	padding:5px;
+	background: #FFF;
+}
+.bolum1 h2{
+	text-shadow: 0px 0px 1px #666;
+	font-size:24px;
+	font-family:"Comic Sans MS", cursive;
+	color:#000;
+	padding:10px;
+	margin:0;
+}
+.bolum1 .sol {
+	float: left;
+	width: 500px;
+	vertical-align:middle;
+}
+.bolum1 a {
+	color: #666;
+	border:0;
+	text-decoration:none;
+}
+.bolum3 {
+	background-color: #222;
+	height: 40px;
+	width: 100%;
+	border-bottom:2px solid #555;
+}
+.bolum4{
+	padding-top:5px;
+}
+.bolum4 .sol {
+	width: 700px;
+	float:left;
+}
+.bolum4 .sag {
+	width:270px;
+	margin-left:7px;
+	float:left;
+}
+.bolum1 .sag a:hover {
+	color: #000;
+}
+.bolum1 .sag {
+	float: left;
+	width: 480px;
+	text-align:right;
+}
+.icerik {
+	width: 980px;
+	margin:auto;
+}
+.araTxt{
+	width:218px; 
+	height:23px;
+	border:0;
+	padding:2px 5px 2px 5px;
+	-moz-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	color:#666;
+	float:left;
+}
+.araBtn{
+	background:#333;
+	height:27px;
+	padding-left:4px;	
+	-moz-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+.bolum5 {
+	background-color:#444;
+	height: 1px;
+	width: 100%;
+}
+.bolum6 .sol {
+	color: #999;
+	float: left;
+	width: 700px;
+	font-size:13px;
+	padding-top:23px;
+}
+.bolum6 .sag {
+	text-align: right;
+	width:280px;
+	float: left;
+}
+.icerikSol {
+	float: left;
+	width: 659px;
+	padding:15px 15px 15px 15px;
+	font-size:13px;
+	margin-top:10px;
+	margin-right:10px;
+	color:#444;
+	background:#FFF;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	box-shadow: #999 0px 0px 1px 0px;
+}
+.icerikSol img{
+	max-width:660px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+#iletisim iframe{
+	margin-left:-10px;
+	margin-bottom:-10px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	max-width:680px;
+}
+.icerikSol h3{
+	text-shadow: 1px 1px 1px #cccccc;
+}
+.icerikSol li{
+	list-style-type:none;
+	list-style-image:url(../img/bullet_gri.png);
+	margin-top:7px;
+}
+.icerikSol a{
+	color:#333;
+	text-decoration:none;
+}
+.icerikSol td{
+	-moz-border-radius:2px;
+	border-radius:2px;
+	
+}
+.icerikSag {
+	width:275px;
+	margin-left:5px;
+	margin-top:10px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: #222 0px 0px 3px 0px;
+}
+.icerikSag .ust{
+	float: left;
+	width:262px;
+	padding:7px;
+	-moz-border-radius:2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+	background:#000;
+	opacity:0.8;
+	color:#FFF;
+	font-weight:bold;
+	text-shadow: 0px 2px 2px #333;
+}
+.icerikSag .alt{
+	float: left;
+	width:260px;
+	border:1px solid #eee;
+	border-top:0;
+	padding:7px;
+	color:#444;
+	background:#FFF;
+	-moz-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+	text-shadow: 1px 1px 1px #eee;
+}
+.icerikSag .alt .btn a{
+	display:block;
+	background:#B01111;
+	color:#FFF;
+	text-decoration:none;
+	text-shadow:none;
+	padding:7px;
+	margin-top:5px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.icerikSag .alt .btn a:hover{
+	background:#333333;
+}
+.icerikSag ul{
+	margin:-5px 0 0 -15px;
+}
+#anaUL ul{
+	margin:0;
+	margin-left:-10px;
+}
+.icerikSag li a{
+	color:#202020;
+	text-decoration:none;
+}
+.icerikSag li a:hover{
+	text-decoration:underline;
+}
+.album{
+	background:url(../img/galeri2.png) no-repeat;
+	width:150px;
+	text-align:center;
+	padding-top:130px;
+	float:left;
+	margin-left:20px;
+	margin-top:50px;
+	font-weight:bold;
+}
+.mezunBasari{
+	margin:10px;
+	background:#EEE;
+	height:300px;
+	font-size:12px;
+	width:315px;
+	padding:5px;
+	float:left;
+	color:#222;
+	text-shadow:none;
+}
+.mezunBasari img{
+	width:315px;
+	height:150px;
+}
+.mezunBasari p{
+	width:315px;
+	height:68px;
+	margin:0;
+	display:block;
+	overflow:hidden;
+	padding:0 0 10px 0;
+}
+.mezunBasari h3{
+	color:#B01111;
+	margin:0;
+	padding:10px 0 10px 0;
+}
+.mezunBasari a{
+	width:295px;
+	height:15px;
+	vertical-align:bottom;
+	text-align:center;
+	padding:10px;
+	background:#B01111;
+	color:#FFF;
+	text-decoration:none;
+	display:block;
+}
+.tumDuyurular{
+	margin:20px 0 0 0;
+	margin-top:;
+	padding:0;
+}
+.tumDuyurular a{
+	background:url(../img/overlay.png);
+	color:#FFF;
+	text-shadow:none;
+	text-decoration:none;
+	text-align:center;
+	padding:7px;
+	display:block;
+}
+.tumDuyurular a:hover{
+	text-decoration:none;
+	color:#FFF;
+}
+.uyeFormu tr td{
+	border:1px solid #999;
+	text-align:right;
+	font-weight:bold;
+	padding:3px;
+}
+.uyeFormu tr td textarea{
+	width:100%;
+	min-width:505px;
+	max-width:505px;
+}
