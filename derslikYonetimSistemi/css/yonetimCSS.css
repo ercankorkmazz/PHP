@@ -1,0 +1,302 @@
+@charset "iso-8859-9";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+	overflow:hidden;
+	overflow-y:scroll;
+	overflow-x:hidden;
+	background:#444 url(../img/bgr.png);
+}
+.bildirim{
+	background: #000;
+	opacity:0.8;
+	box-shadow:0px 2px 2px 2px #333333;
+	margin-top:2px;
+	width:620px;
+	color:#FFF;
+	padding:3px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+}
+.clear{ clear:both; }
+.bolum1{
+	background: #3B3B3B;
+	border-bottom:1px solid #999999;
+}
+.bolum1 .sol {
+	float: left;
+	width: 50%;
+	padding:6px;
+}
+.bolum1 .sag {
+	float: left;
+	width: 47%;
+	text-align:right;
+	padding:20px 10px 10px 10px;
+}
+.bolum2 {
+	background-color: #3B3B3B;
+	box-shadow:2px 2px 2px #333333;
+	width:100%;
+	height:33px;
+}
+.bolum2 #MenuBar1 li a{
+	padding:7px 10px 8px 10px;	
+}
+.bolum3 {
+	background:url(../img/overlay.png);
+	padding:20px;
+	text-align:center;
+	border-bottom:5px solid #333;
+}.bolum3 .giris {
+	background:url(../img/overlay.png);
+	width:300px;
+	margin:auto;
+	text-align:right;
+	margin-top:10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;
+	border:1px solid #888;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.bolum3 .giris h2{
+	color:#FFF;
+	margin-right:5px;
+	padding:10px;
+	font-weight:normal;
+}
+.bolum3 .giris h4{
+	color:#FFF;
+	font-size:13px;
+	font-weight:normal;
+}
+.bolum3 .giris a{
+	color:#FFF;
+	font-size:13px;
+	font-weight:normal;
+}
+.bolum3 .giris .baslik {
+	font-size:20px; 
+	color:#FFF; 
+	padding-right:15px;
+	font-weight:bold;
+}
+.bolum3 .giris .button{
+	background:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	border:2px solid #333; 
+	color:#000; 
+	padding:7px 15px 7px 15px; 
+	height:34px;
+}
+h3{
+	color:#333;
+	margin:0;
+	padding:5px;
+}
+textarea{
+	min-width:99.3%;
+	height:70px;
+}
+.arkaPlan {
+	width:95%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background:#FFF;
+	padding:15px;
+	margin:20px;
+	-moz-border-radius: 2px;
+	border-radius: 2px; 
+	box-shadow:0px 0px 7px 2px #333333;
+}
+.arkaPlan .menuAdi {
+	background-color: #474747;
+	width: 99%;
+	height:30px;
+	padding:3px 5px 5px 5px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+.arkaPlan .menuAdi h3{
+	margin:0;
+	padding:5px;
+	font-weight:normal;
+	color:#FFF;
+}
+.arkaPlan .menuAdi .ad {
+	float: left;
+	width: 55%;
+}
+.arkaPlan .menuAdi .ad input{
+	padding:3px;
+	background:#FFF;
+	margin:0;
+	height:30px;
+	border:0;
+	color:#000;
+	font-size:13px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.arkaPlan .menuAdi .ad input[type=submit]{
+	background:#D00;
+	margin:0;
+	height:30px;
+	width:35px;
+	border:0;
+	color:#FFF;
+	font-size:13px;
+	text-shadow:#000 0px 0px 2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.arkaPlan .menuAdi .ad select{
+	background:#FFF;
+	padding:3px;
+	margin:0;
+	height:30px;
+	border:0;
+	color:#000;
+	font-size:13px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+
+.arkaPlan .menuAdi .link {
+	float: left;
+	width: 45%;
+}
+.arkaPlan .menuAdi .link li{
+	list-style-type:none;
+	float:right;
+	margin:0;
+	margin-right:10px;
+	margin-top:-5px;
+}
+.arkaPlan .menuAdi .link a{
+	padding:19px;
+	background:#D00;
+	color:#FFF;
+	height:50px;
+	margin:0;
+	text-decoration:none;
+	text-shadow:#000 0px 0px 2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.arkaPlan .menuAdi .link input{
+	padding:17px;
+	background:#C00;
+	margin:0;
+	height:55px;
+	margin-top:-20px;
+	border:0;
+	color:#FFF;
+	font-size:13px;
+	text-shadow:#000 0px 0px 2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.arkaPlan .menuAdi .link select{
+	background:#FFF;
+	padding:3px;
+	height:30px;
+	margin:0;
+	border:0;
+	color:#000;
+	font-size:13px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+.arkaPlan table{
+	margin-top:20px;
+	font-size:12px;
+}
+.arkaPlan table td{
+	background:#EEE;
+	padding:7px;
+	-moz-border-radius: 2px;
+	border-radius: 2px; 
+}
+.arkaPlan table a{
+	color:#000;
+	text-decoration:none;
+	display:block;
+	padding:2px;
+}
+.arkaPlan table a:hover{
+	text-decoration:blink;
+}
+.program tr td{
+	font-weight:bold;
+	text-align:center;	
+	border:1px solid #666;
+}
+.program h3{
+	margin:0;
+	padding:0;
+	color:#FFF;
+}
+#program1 a:hover{
+	color:#060;
+	text-decoration:underline;
+}
+.arkaPlan .guncellemeler{
+	width:200px;
+	float:left;
+	box-shadow:0px 0px 7px 2px #006600;
+	padding-bottom:5px;
+}	
+.arkaPlan .guncellemeler h3{
+	margin:0;
+	background:#090;
+	color:#FFF;
+	padding:7px;
+	text-align:left;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.arkaPlan .guncellemeler .liste{
+	background:#FFF;
+	height:200px;
+	overflow:hidden;
+	overflow-y:scroll;
+	color:#000;
+	padding:5px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.arkaPlan .guncellemeler .liste li{
+	list-style-type:none;
+	text-shadow:none;
+	text-align:left;
+	font-size:13px;
+	border-bottom:1px solid #090;
+	margin-left:-40px;
+	padding:20px 5px 20px 5px;
+	
+}
+.arkaPlan .guncellemeler img{
+	margin-top:-20px;	
+}
+.EDTable tr td{
+	background-color:#FFF;
+	padding:5px;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border:1px solid #BBB;
+}
+.btn{
+	background:#900 url(../img/tatil.png);
+	-moz-border-radius: 3px;
+	border-radius: 3px; 
+	border:2px solid #333; 
+	color:#FFF; 
+	font-weight:bold;
+	text-shadow:#000 0px 0px 3px;
+	padding:7px 15px 7px 15px; 
+	height:45px;
+}
