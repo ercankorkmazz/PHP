@@ -1,0 +1,32 @@
+/*======= index.html =======*/
+#anasayfa .col-1{width:310px;}
+#anasayfa .col-2{width:180px;}
+
+#anasayfa .close{background:#00aef0;}
+#anasayfa .colored{color:#00aef0;}
+#anasayfa .rm:hover{color:#00aef0;}
+
+
+#kadro .close{background:#00aef0;}
+#kadro .colored{color:#00aef0;}
+#kadro .rm:hover{color:#00aef0;}
+
+#projeler .close{background:#00aef0;}
+#projeler .colored{color:#00aef0;}
+#projeler .rm:hover{color:#00aef0;}
+
+#yayinlar .close{background:#00aef0;}
+
+#iletisim .close{background:#00aef0;}
+#iletisim .colored{color:#00aef0;}
+#iletisim .rm:hover{color:#00aef0;}
+
+#iletisim .brdr{background: url(../img/border-pixel.png) 223px 0 repeat-y;}
+
+#iletisim .col-1{width:200px; margin-right:50px;}
+#iletisim .col-2{width:340px;}
+
+#privacy .close{background:#5c5c5c;}
+/*=========================*/
+
+

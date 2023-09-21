@@ -1,0 +1,1 @@
+Cufon.replace('aside nav a,.gallery,h2,.rm,h3', { fontFamily: 'Capture it',hover:{} });
