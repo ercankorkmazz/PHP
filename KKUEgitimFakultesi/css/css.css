@@ -1,0 +1,259 @@
+@charset "iso-8859-9";
+/* CSS Document */
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	margin:0px;
+	padding:0px;
+	overflow-y:scroll;
+	background: #EEF url(../img/bgr.png) center top;
+}
+.clear{
+	clear:both;
+}
+#tablo { margin-top:7px;}
+#tablo .tr{
+	-moz-border-radius:2px;
+	border-radius:2px;
+	border-top:1px solid #DDD;
+	padding:10px 0 10px 0;
+}
+#tablo tr td{
+	padding:3px;
+}
+#tablo img{
+	box-shadow: #CCC 0px 0px 10px 1px;
+	-moz-border-radius:3px;
+	border-radius:1px;
+	margin-left:2px;
+}
+.bolum1 h2{
+	text-shadow: 2px 2px 2px #eee;
+}
+.bolum2 h2{
+	text-shadow: 2px 2px 2px #333;
+}
+.bolum1 .sol {
+	float: left;
+	width: 500px;
+	vertical-align:middle;
+	padding-top:15px;
+} 
+.bolum1 a {
+	color: #666;
+	border:0;
+	text-decoration:none;
+}
+.bolum3 {
+	background-color: #3B3B3B;
+	height: 40px;
+	width: 100%;
+}
+.h-bolum3 {
+	top:0;
+	left:0;
+	width:100%;
+	z-index:9999;
+	position:fixed;	
+	opacity:0.95;
+}
+.bolum4{
+	padding-top:5px;
+}
+.bolum4 .sol {
+	width: 700px;
+	float:left;
+}
+.bolum4 .sag {
+	width:270px;
+	margin-left:7px;
+	float:left;
+}
+.bolum1 .sag a:hover {
+	color: #000;
+}
+.bolum1 .sag {
+	float: left;
+	width: 480px;
+	text-align:right;
+}
+.icerik {
+	width: 980px;
+	margin:auto;
+}
+.araTxt{
+	width:218px; 
+	height:23px;
+	border:0;
+	padding:2px 5px 2px 5px;
+	-moz-border-radius:2px 0 0 2px;
+	border-radius:2px 0 0 2px;
+	color:#666;
+	float:left;
+}
+.araBtn{
+	background:#333;
+	height:27px;
+	padding-left:4px;	
+	-moz-border-radius:0 2px 2px 0;
+	border-radius:0 2px 2px 0;
+}
+.bolum5 {
+	background-color:#3B3B3B;
+	height: 1px;
+	width: 100%;
+}
+.bolum6 .sol {
+	color: #999;
+	float: left;
+	width: 700px;
+	font-size:13px;
+	padding-top:33px;
+}
+.bolum6 .sag {
+	text-align: right;
+	width:280px;
+	float: left;
+}
+.icerikSol {
+	float: left;
+	width: 660px;
+	padding:15px 15px 15px 15px;
+	font-size:13px;
+	margin-top:10px;
+	margin-right:10px;
+	color:#444;
+	background:#FFF;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	box-shadow: #555 0px 0px 10px 1px;
+}
+.icerikSol img{
+	max-width:660px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+#iletisim iframe{
+	margin-left:-10px;
+	margin-bottom:-10px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	max-width:680px;
+}
+.icerikSol h3{
+	text-shadow: 1px 1px 1px #cccccc;
+}
+.icerikSol li{
+	list-style-type:none;
+	list-style-image:url(../img/bullet_gri.png);
+	margin-top:7px;
+}
+.icerikSol a{
+	color:#333;
+	text-decoration:none;
+}
+.icerikSag {
+	float: left;
+	width:275px;
+	margin-left:5px;
+	margin-top:10px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	box-shadow: #555 0px 0px 5px 1px;
+}
+.icerikSag .ust{
+	float: left;
+	width:262px;
+	padding:7px;
+	-moz-border-radius:2px 2px 0 0;
+	border-radius: 2px 2px 0 0;
+	background:#000;
+	opacity:0.7;
+	color:#FFF;
+	font-weight:bold;
+	text-shadow: 0px 2px 2px #333;
+}
+.icerikSag .alt{
+	float: left;
+	width:260px;
+	border:1px solid #eee;
+	border-top:0;
+	padding:7px;
+	color:#444;
+	background:#FFF;
+	-moz-border-radius: 0 0 2px 2px;
+	border-radius: 0 0 2px 2px;
+	text-shadow: 1px 1px 1px #eee;
+}
+.icerikSag .alt .facebook{
+	background:url(../img/facebook.png) no-repeat right center;
+	text-align:right;
+	height:30px;
+	margin-top:-5px;
+	padding-top:15px;
+	border-top:1px solid #eee;
+}
+.icerikSag .alt .facebook a{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:40px;
+	color:#3B3B3B;
+	text-shadow: 1px 1px 1px #ccc;
+}
+.icerikSag .alt .twitter{
+	background:url(../img/twitter.png) no-repeat right center;text-align:right;
+	height:30px;
+	padding-top:15px;
+	border-top:1px solid #eee;
+}
+.icerikSag .alt .twitter a{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:40px;
+	margin-top:-5px;
+	color:#3B3B3B;
+	text-shadow: 1px 1px 1px #ccc;
+}
+.icerikSag .alt .galeri{
+	background:url(../img/galeri.png) no-repeat right center;
+	text-align:right;
+	height:30px;
+	padding-top:15px;
+	border-top:1px solid #eee;
+	margin-top:10px;
+}
+.icerikSag .alt .galeri a{
+	text-decoration:none;
+	font-size:14px;
+	font-weight:bold;
+	padding-right:40px;
+	color:#3B3B3B;
+	text-shadow: 1px 1px 1px #ccc;
+}
+.icerikSag ul{
+	margin:-5px 0 0 -15px;
+}
+#anaUL ul{
+	margin:0;
+	margin-left:-10px;
+}
+.icerikSag li a{
+	color:#202020;
+	text-decoration:none;
+}
+.icerikSag li a:hover{
+	text-decoration:underline;
+}
+.album{
+	background:url(../img/galeri2.png) no-repeat;
+	width:150px;
+	text-align:center;
+	padding-top:130px;
+	float:left;
+	margin-left:20px;
+	margin-top:50px;
+	font-weight:bold;
+}

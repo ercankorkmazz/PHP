@@ -1,0 +1,201 @@
+@charset "iso-8859-9";
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	background:#EEF url(../../img/bgr.png);
+	overflow-y:scroll;
+}
+.bildirim{
+	background: #000;
+	opacity:0.8;
+	box-shadow:2px 2px 2px #333333;
+	width:370px;
+	color:#FFF;
+	padding:10px;
+	-moz-border-radius: 0 0 0 5px;
+	border-radius: 0 0 0 5px;
+	float:right;
+}
+.bolum2 {
+	background-color: #3B3B3B;
+	box-shadow:2px 2px 2px #333333;
+	width:100%;
+	height:33px;
+}
+
+.clear{ clear:both; }
+.bolum1{
+	background: #3B3B3B;
+	border-bottom:1px solid #999999;
+}
+.bolum1 .sol {
+	float: left;
+	width: 45%;
+	padding:5px;
+}
+.bolum1 .sag {
+	float: left;
+	width: 45%;
+	text-align:right;
+	padding:20px;
+}
+.bolum3 {
+	background:url(../../img/overlay.png);
+	padding:20px;
+	text-align:center;
+	border-bottom:5px solid #333;
+}.bolum3 .giris {
+	background:url(../../img/overlay.png);
+	width:370px;
+	margin:auto;
+	text-align:right;
+	margin-top:20px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;
+	border:1px solid #888;
+}
+.bolum3 .giris .baslik {
+	font-size:20px; 
+	color:#FFF; 
+	padding-right:15px;
+	font-weight:bold;
+}
+.button{
+	background:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	border:2px solid #333; 
+	color:#000; 
+	padding:7px 15px 7px 15px; 
+	height:34px;
+}
+#link .button{
+	background:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	border:2px solid #333; 
+	color:#000; 
+	padding:7px 15px 7px 15px; 
+	height:34px;
+	float:right;
+	height:auto;
+}
+.txtBG{
+	background:#FFF; 
+	border-radius: 5px;
+	padding:5px; 
+	width:150px;
+	height:23px;
+}
+.textareaBG{
+	background:#FFF; 
+	border-radius: 5px;
+	padding:5px; 
+	width:700px;
+	float:left;
+}
+.bolumHakkinda {
+	background:url(../../img/overlay.png);
+	padding:10px;
+	margin:10px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	width:710px;
+}
+.bolumHakkinda .table td{
+	background:#FFF;
+	-moz-border-radius: 2px;
+	border-radius: 2px; 
+	font-size:13px;
+}
+.bolumHakkinda .table{
+	margin-top:10px;
+}
+#menuAdi a{
+	color:#000;
+}
+#menuAdi a:hover{
+	color:#900;
+	font-weight:bold;
+}
+.bolumHakkinda .table textarea{
+	min-width:880px;
+	max-width:880px;
+}
+.bolumHakkinda .table h3{
+	margin:0;
+	padding:0;
+}
+.bolumHakkinda .table input{
+	padding:10px;
+}
+.bolumHakkinda .submit{
+	background:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	border:2px solid #333; 
+	color:#000; 
+	padding:7px 15px 7px 15px; 
+	height:34px;
+	float:right;
+	margin-left:5px;
+}
+#link a{
+	float:left;
+	height:auto; 
+	text-shadow:none;
+}
+#link a:hover{
+	font-weight:normal;
+}
+.bolumHakkinda a:hover{ color:#000; text-shadow: 2px 2px 2px #444; font-weight:bold; text-decoration:none;}
+input{ 
+	border:0; 
+	font-size:13px;
+	height:23px;
+}
+input[type=checkbox]{
+	height:auto;	
+}
+textarea{ 
+	border:0; 
+	font-size:14px;
+}
+
+.etkinlikFotoBG{
+	background-color:#FFF;
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+	width:692px;
+	height:150px;
+}
+.etkinlikFotoBG img{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.fakulteAdi {
+	background:url(../../img/overlay.png);
+	padding:10px;
+	margin:10px;
+	width:510px;	
+	-moz-border-radius: 5px;
+	border-radius: 5px; 
+}
+h3{
+	color:#FFF;
+}
+a {
+	color:#FFF;
+	text-decoration:none;
+}
+#duyuru a:hover{
+	text-decoration:underline;	
+}
+.etkinlik a:hover{
+	text-decoration:underline;	
+}
